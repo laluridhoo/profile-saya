@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+  flex: 1 1 auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  background-color: #3D3BF3;
+}
+
+header a {
+  color: white;
+}
+
+.fotoProfile{
+  background-color: #EBEAFF;
+  padding-top: 30px;
+}
+
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.textProfile h1 {
+  color: black;
+  text-align: center;
+}
+
+.textProfile p {
+  color: black;
+  text-align: center;
+  margin-top: -15px;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+}
+
+
+
+.information {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  background-color: #9694FF;
+  text-align: center;
+}
+
+.information .story{
+  width: 50%;
+  margin-left: 200px;
+}
+
+.information .story h3{
+  margin-top: 0;
+}
+
+article.personal-infomation h3{
+  text-align: center;
+  margin-top: 0;
+  margin-left: 100px;
+}
+table{
+  margin-left: 100px;
+}
+.information p,
+.personal_information p {
+  font-size: 25px;
+}
+
+footer {
+  background-color: #FF2929;
+}
+
+footer p {
+  padding: 1px;
+  text-align: center;
+  margin: 0 0;
+}
